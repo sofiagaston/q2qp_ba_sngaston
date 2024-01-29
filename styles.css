@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&display=swap');
+
+.page {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    position: fixed;
+    background-image: linear-gradient(to right, #D58936, #A44200);
+    border: #A44200 2px dashed;
+    width: 100%;
+    min-height: 10%;
+    right: 0;
+    top: 0;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+@media (max-width: 480px) {
+    header {
+        min-height: 15%;
+    }
+}
+
+#dogVid, #bg1, #bg2 {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    right: 0;
+    bottom: 0;
+    z-index: -100;
+}
+
+.logo {
+    align-items: start;
+    margin-right: 15vw;
+}
+
+.logo>img {
+    height: 100px;
+    margin: 10px;
+    float: left;
+}
+
+.links {
+    display: fixed;
+    display: inline-flex;
+    float: right;
+    font-size: xx-large;
+    margin-top: 5vh;
+    margin-right: 30px;
+}
+
+.links a:hover {
+    text-shadow: 2px 2px rgb(19, 18, 18);
+}
+
+.links a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.topArea {
+    background-color: #A44200;
+    z-index: -10;
+    position: absolute;
+    min-width: 96%;
+    max-height: 210px;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.PAWS >p{
+    float: left;
+    padding-left: 30px;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: xx-large;
+    color: #F2F3AE;
+}
+
+.PAWScont {
+    float: left;
+    padding-left: 5px;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: xx-large;
+}
+
+
+.slogan {
+    font-family: 'Signika Negative', sans-serif;
+    color: #F2F3AE;
+    text-shadow: 1px 1px #98987f;
+    font-size: xx-large;
+    text-align: center;
+    flex-grow: 1;
+    display: inline-flex;
+}
+
+.slogan>img {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.contact {
+    max-width: 30%;
+    text-align: right;
+    margin-left: auto;
+    padding-right: 30px;
+    color: white;
+    font-size: x-large;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.content {
+    z-index: -100;
+    background-color: rgba(164, 66, 0, 0.75);
+    border: 5px solid #D58936;
+    padding: 20px;
+    margin-top: 23%;
+    margin-left: 4.5%;
+    padding-top: 50px;
+    max-width: 85.5%;
+    position: absolute;
+    width: 100%;
+    font-family: 'Signika Negative', sans-serif;
+    padding-bottom: 100px;
+}
+
+.content>h1 {
+    color: #F2F3AE;
+    font-size: xx-large;
+}
+
+p {
+    color: white;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 11%;
+}
+
+.quote {
+    background-color: rgba(164, 66, 0, 0.75);
+    border-radius: 15%;
+    padding: 20px;
+    font-family: 'Signika Negative', sans-serif;
+    margin-right: 2%;
+    margin-left: 10%;
+    min-width: 38vw;
+}
+
+.quote>p{
+    font-size: x-large;
+}
+
+.events {
+    background-color: rgba(164, 66, 0, 0.75);
+    border-radius: 15%;
+    padding: 20px;
+    font-family: 'Signika Negative', sans-serif;
+    margin-left: 2%;
+    min-width: 38vw;
+}
+
+.programs{
+    background-color: rgba(164, 66, 0, 0.75);
+    border-radius: 15%;
+    min-width: 80vw;
+    margin-left: 6vw;
+    margin-right: 3vw;
+    padding:5vh;
+    margin-top:2vh;
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    padding-bottom: 10vh;
+}
+
+.aboutUs{
+    margin-top: 11%;
+    background-color: rgba(164, 66, 0, 0.75);
+    border-radius: 15%;
+    min-width: 85vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    height: 28vh;
+    text-align: start;
+}
+
+.aboutUs>img{
+    float:left;
+    border:#A44200 solid 15px;
+    border-radius: 15%;
+}
+
+.MissionVision{
+    display: flex;
+    font-family: 'Signika Negative', sans-serif;
+    background-color: rgba(164, 66, 0, 0.75);
+    min-width: 82vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    margin-top: 5vh;
+    border-radius: 15%;
+    text-align: start;
+    padding:3vh;
+}
+
+.mission{
+    flex:1;
+    padding:3vh;
+}
+
+.vision{
+    flex:2;
+}
+
+.volunteer{
+    font-family: 'Signika Negative', sans-serif;
+    background-color: rgba(164, 66, 0, 0.75);
+    min-width: 82vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    margin-top: 5vh;
+    border-radius: 15%;
+    text-align: start;
+    padding:3vh;
+    padding-bottom: 15vh;
+}
+
+.volunteer a{
+    text-decoration: none;
+    border: #D58936 solid 2px;
+    color: #F2F3AE;
+    padding:5px;
+}
+
+@keyframes moveLeftToRight {
+    from {
+        transform: translateX(-100vw);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
+.gif {
+    width: 20px;
+    transform: translateX(-100%);
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    z-index: 1;
+}
+
+.gif1 {
+    animation: moveLeftToRight 20s ease 0s infinite;
+}
+
+footer {
+    background-image: linear-gradient(to right, #D58936, #A44200);
+    border: #A44200 2px dashed;
+    width: 100%;
+    min-height: 20px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    color: #F2F3AE;
+    text-align: right;
+    padding-right: 10px;
+    font-family: 'Signika Negative', sans-serif;
+    display: inline-flex;
+    bottom: 0vh;
+    left: 0vw;
+    right: 0vw;
+}
+
+.footer {
+    display: inline-flex;
+    float: right;
+}
+
+.rights{
+    margin-right:58%;
+    margin-left: 2%;
+}
+
+.icon {
+    background: url(media/sprite3.png) no-repeat;
+    width: 66px;
+    height: 66px;
+    margin-right: 5px;
+    align-items: right;
+}
+
+#twitter {
+    background-position: -66px -72px;
+}
+
+#instagram {
+    background-position: -290px -221px;
+}
+
+#pinterest {
+    background-position: -141px -221px;
+}
+
+#facebook {
+    background-position: -439px -146px;
+}
